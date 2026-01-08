@@ -31,7 +31,6 @@ public class IntroLoadingSceneScript : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         sceneLoading.allowSceneActivation = true;
-
         yield return new WaitForSeconds(6f);
         Destroy(gameObject);
     }
